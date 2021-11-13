@@ -12,7 +12,7 @@ const colors = {
     severe: '#af2d24',
 }
 
-const ws = new WebSocket("ws://city-ws.herokuapp.com");     
+const ws = new WebSocket("wss://city-ws.herokuapp.com");     
 ws.onmessage = function(event) {
     let today = new Date();
     const measurement = JSON.parse(event.data);
