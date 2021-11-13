@@ -1,0 +1,24 @@
+{
+  "name": "air_quality_monitoring_app",
+  "version": "1.0.0",
+  "description": "## Time Taken? * It took me two days to build and I work around 2 to 3 hours every day",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel run index.html",
+    "build": "parcel build index.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amansohal8654/Air-Quality-Monitoring.git"
+  },
+  "author": "Aman Singh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/amansohal8654/Air-Quality-Monitoring/issues"
+  },
+  "homepage": "https://github.com/amansohal8654/Air-Quality-Monitoring#readme",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.5"
+  }
+}
