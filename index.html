@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="Amandeep Singh" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.88.1">
+    <title>Air Quality Monitoring App</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.1/examples/dashboard/">
+
+    
+
+    <!-- Bootstrap core CSS -->
+<link href="./assets/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
+
+    
+    <!-- Custom styles for this template -->
+    <link href="./style/style.css" rel="stylesheet">
+  </head>
+<body>
+<div class="container-fluid">
+  <nav class="navbar navbar-dark bg-dark">
+    <div class="btn-group btn-group-toggle" data-toggle="buttons">
+      <a class="btn btn-outline-success navLink" href="#">Home</a>
+      <a class="btn btn-outline-success navLink" href="./htmlpages/history.html">History</a>
+    </div>
+  </nav>
+  <div class="row" style="margin-top: 20px">
+    <main class="col px-md-4">
+        <h2>Air Quality Monitoring Table</h2>
+      <div class="table-responsive">
+        <table class="table table-striped table-sm" id="table">
+          <thead>
+            <tr>
+              <th scope="col">City</th>
+              <th scope="col">AQI</th>
+              <th scope="col">Time</th>
+            </tr>
+          </thead>
+          <tbody>
+              <!--
+                Bengaluru
+                Bhubaneswar
+                Chandigarh
+                Chennai
+                Delhi
+                Hyderabad
+                Indore
+                Jaipur
+                Kolkata
+                Lucknow
+                Mumbai
+                Pune
+               -->
+               <tr>
+                <td>Bengaluru</td>
+                <td>000.00</td>
+                <td>00:0:00</td>
+              </tr>
+              <tr>
+                <td>Bhubaneswar</td>
+                <td>000.00</td>
+                <td>00:0:00</td>
+              </tr>
+              <tr>
+                <td>Chandigarh</td>
+                <td>000.00</td>
+                <td>00:0:00</td>
+              </tr>
+              <tr>
+                <td>Chennai</td>
+                <td>000.00</td>
+                <td>00:0:00</td>
+              </tr>
+              <tr>
+                <td>Delhi</td>
+                <td>000.00</td>
+                <td>00:0:00</td>
+              </tr>
+              <tr>
+                <td>Hyderabad</td>
+                <td>000.00</td>
+                <td>00:0:00</td>
+              </tr>
+              <tr>
+                <td>Indore</td>
+                <td>000.00</td>
+                <td>00:0:00</td>
+              </tr>
+              <tr>
+                <td>Jaipur</td>
+                <td>000.00</td>
+                <td>00:0:00</td>
+              </tr>
+              <tr>
+                <td>Kolkata</td>
+                <td>000.00</td>
+                <td>00:0:00</td>
+              </tr>
+              <tr>
+                <td>Lucknow</td>
+                <td>000.00</td>
+                <td>00:0:00</td>
+              </tr>
+              <tr>
+                <td>Mumbai</td>
+                <td>000.00</td>
+                <td>00:0:00</td>
+              </tr>
+              <tr>
+                <td>Pune</td>
+                <td>000.00</td>
+                <td>00:0:00</td>
+              </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
+        <h1 class="h2">Data of different cities</h1>
+      </div>
+
+      <canvas id="myChart" width="400" height="150"></canvas>
+
+      
+    </main>
+  </div>
+</div>
+<script type="module" src="./script/script.js"></script>
+<script src="./assets/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/feather-icons@4.28.0/dist/feather.min.js" integrity="sha384-uO3SXW5IuS1ZpFPKugNNWqTZRRglnUJK6UAZ/gxOX80nxEkN9NcGZTftn6RzhGWE" crossorigin="anonymous"></script>
+<script src="./script/chart.mjs"></script>
+</body>
+</html>

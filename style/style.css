@@ -1,0 +1,18 @@
+body {
+    font-size: .875rem;
+  }
+  
+  .feather {
+    width: 16px;
+    height: 16px;
+    vertical-align: text-bottom;
+  }
+  
+  .navLink{
+    margin-left: 10px;
+  }
+
+  .chartRow{
+    margin-top: 90px;
+  }
+  
