@@ -4,7 +4,6 @@ import { dataQueue } from './dataStore.mjs';
 const table = document.querySelector("#table");
 const tBody = table.getElementsByTagName("tbody");
 
-
 //Updating data every second
 setInterval(() => {
     if(dataQueue.length > 0) {
