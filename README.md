@@ -13,4 +13,4 @@
 * Then Netlify will track down the changes and republish the site.
 
 ## Live Preview
-- [WebApp Link](https://618f8fa4e53c6a0007233285--clever-yonath-bb4196.netlify.app/index.html)
+- [WebApp Link](https://clever-yonath-bb4196.netlify.app/index.html)

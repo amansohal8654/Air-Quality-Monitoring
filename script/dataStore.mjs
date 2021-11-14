@@ -10,7 +10,7 @@ const colors = {
     poor: '#f29c33',
     verypoor: '#e93f33',
     severe: '#af2d24',
-}
+};
 
 const ws = new WebSocket("wss://city-ws.herokuapp.com");     
 ws.onmessage = function(event) {
@@ -46,4 +46,4 @@ function getColor(aqiValue){
         color = colors["severe"]
     }
     return color;
-}
+};
